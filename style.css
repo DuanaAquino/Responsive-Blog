@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.container{
+    padding: 0 11.07rem 0 11.07rem;
+}
+
+/*HEADER*/
+header{
+    background-color: #02A28F;
+    filter: drop-shadow(#ff00001a 10%);
+    padding: .92rem 0 .92rem 0;
+}
+h1 {
+    font-size: 2.57rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: center;
+}
+ /*MAIN*/
+article{
+    margin-top: 3.57rem;
+}
+h2{
+    font-weight: 700;
+    font-size: 2.28rem;
+    color: #FFFFFF;
+}
+h3{
+    font-size: 1.42rem;
+    font-weight: 700;
+    background-color: #02A28F;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: .71rem;
+    padding: 1.16rem 12rem 1.16rem 1.71rem;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+}
+h4{
+    font-weight: 700;
+    font-size: 1rem;
+}
+p{
+    font-weight: 500;
+    font-size: .85rem;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding: .92rem 0 .92rem .85rem;
+    margin-top: 1.25rem;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+    border: 0;
+    border-radius: .71rem;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.57rem;
+}
+.banner{
+    position: relative;
+}
+.gradient{
+    width: 53.14rem;
+    height: 28.28rem;
+    border: 0;
+    border-radius: .71rem;
+    background-image: linear-gradient(to bottom, #66666600 0%, #000000 100%);
+    position: absolute;
+}
+.banner > img{
+    width: 53.14rem;
+    height: 28.28rem;
+    border: 0;
+    border-radius: .71rem;
+    box-shadow: 0px .71rem 1.42rem 0px #0000001A;
+}
+.title{
+    position: absolute;
+    left: 1.71rem;
+    bottom: 1.71rem;
+    color: #FFFFFF;
+}
+.title > p{
+    color: #FFFFFF;
+}
+aside{
+    margin-left: 1.71rem;
+}
+.text{
+    margin-left: .85rem;
+}
+
+/*POSTS*/
+.posts{
+    display: flex;
+    flex-direction: row;
+}
+.postTitle{
+    background-color: #02A28F;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding: 1.14rem 1.71rem 1.14rem 1.71rem;
+    border: 0;
+    border-radius: .57rem;
+    font-weight: 700;
+    font-size: 1.42rem;
+    width: 50rem;;
+}
+.postTitle > p{
+    font-weight: 500;
+    text-decoration: underline;
+}
+aside > h3{
+    width: 18rem;
+}
+ul{
+    font-size: 1.14rem;
+    font-weight: 600;
+    color: #616161;
+}
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+/*GRID*/
