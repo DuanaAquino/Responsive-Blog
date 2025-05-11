@@ -32,7 +32,7 @@ h2{
     font-size: 2.28rem;
     color: #FFFFFF;
 }
-h3{
+aside > h3{
     font-size: 1.42rem;
     font-weight: 700;
     background-color: #02A28F;
@@ -102,6 +102,7 @@ aside{
 .posts{
     display: flex;
     flex-direction: row;
+    margin-top: 1.71rem;
 }
 .postTitle{
     background-color: #02A28F;
@@ -138,3 +139,58 @@ li{
     margin-top: 1rem;
 }
 /*GRID*/
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: auto;
+    gap: 1.71rem;
+}
+.gridItem{
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    border-radius: 0 0 1.14rem 1.14rem;
+}
+.gridItem > img{
+    border-radius: 1.14rem 1.14rem 0 0;
+    width: 25.71rem;
+    height:13.64rem;
+}
+.textContainer{
+    padding: 1.07rem 1.14rem;
+}
+.textContainer > h3{
+    margin-top: .57rem;
+    font-size: 1.42rem;
+    font-weight: 700;
+    color: #000000;
+}
+.textContainer > p{
+    margin-top: .57rem;
+}
+.gridText{
+    padding-top: .57rem;
+    color: #000000;
+    font-weight: 400;
+}
+.turquoise{
+    color: #02A28F;
+    font-weight: 400;
+}
+.autor{
+    margin-top: .57rem;
+    color: #616161;
+    font-weight: 400;
+}
+.date{
+    margin-top: .57rem;
+    color: #616161;
+}
+/*FOOTER*/
+
+footer{
+    background-color: #02A28F;
+    color: #FFFFFF;
+    margin-top: 4.64rem;
+    padding: 1.10rem;
+    text-align: center;
+}
